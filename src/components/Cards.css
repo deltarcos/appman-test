@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;700&display=swap');
+.card-container {
+    width: 100%;
+    height: 670px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: auto;
+    padding-bottom: 4rem;
+}
+
+.card-item {
+    position: relative;
+    text-align: left;
+    width: 48%;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    background-color: #f3f4f7;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 10px;
+    box-shadow: 1px 2px 5px #d5d6dc;
+    transition: 200ms;
+}
+
+.card-item:hover {
+    box-shadow: 1px 2px 5px #aeaeae;
+
+}
+
+.card-delete {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 700;
+    right: 16px;
+    color: #eb4d4b;
+    line-height: 0;
+    top: 22px;
+    cursor: pointer;
+    display: none;
+    user-select: none;
+}
+.item-right {
+    padding-left: 10px;
+}
+
+.card-img {
+    width: 180px;
+}
+
+.card-name {
+    font-family: 'Atma', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.details > div {
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+.details > .text {
+    line-height: 1.1;
+}
+
+.emoji-container{
+    display: flex;
+    width: 266px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.emoji-item {
+    width: 50px;
+    height: 50px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.emoji-item > img {
+    width: 50px;
+    height: 50px;
+    margin-right: 2px;
+}
+
+.card-container::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.card-container::-webkit-scrollbar:vertical {
+    width: 14px;
+}
+
+.card-container::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, .5);
+}

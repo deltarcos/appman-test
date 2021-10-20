@@ -1,0 +1,27 @@
+.App {
+    text-align: center;
+}
+
+.footer-container {
+    background-color: #ec5656;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+}
+
+.footer-container > .addBtn {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    top: -20px;
+    left: 30rem;
+    border-radius: 60px;
+    position: absolute;
+    background-color: #ec5656;
+    font-size: 3.4rem;
+    padding: 0px;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;700&display=swap');
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 650px;
+    background-color: #ffffff;
+    padding: 16px;
+    overflow: auto;
+    border-radius: 6px;
+}
+
+input {
+    font-family: 'Atma', cursive;
+    width: 44%;
+    padding: 12px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 2rem;
+    border-radius: 6px;
+    padding-right: 5rem;
+    margin-right: 1rem;
+}
+
+.search-img {
+    position: absolute;
+    right: 24px;
+    top: 20px;
+}
+
+.search-img > img{
+    width: 70px;
+    height: 70px;
+}
+
+.container-modal-card {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 10px auto;
+    overflow: auto;
+    padding-bottom: 4rem;
+}
+
+.modal-card-item {
+    position: relative;
+    text-align: left;
+    width: 100%;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    background-color: #f3f4f7;
+    display: grid;
+    grid-template-columns: 22% 50%;
+    padding: 10px;
+    box-shadow: 1px 2px 5px #d5d6dc;
+    transition: 200ms;
+}
+
+.card-add {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 700;
+    right: 16px;
+    color: #eb4d4b;
+    line-height: 0;
+    top: 28px;
+    cursor: pointer;
+    display: none;
+    user-select: none;
+}
