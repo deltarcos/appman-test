@@ -1,6 +1,6 @@
 import React, { useState }from 'react'
 import Cards from './Cards'
-import Footer from './Footer'
+import Footer from './Modal'
 
 const Home = () => {
     const [cards, setCards] = useState([])
