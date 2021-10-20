@@ -104,7 +104,7 @@ class Card extends React.Component {
       }
   
       return(
-        <div className="modal-card-item" onMouseEnter={e => showDeleteBtn(card.id)} onMouseLeave={e => hideDeleteBtn(card.id)}>
+        <div className="modal-card-item" onMouseOver={e => showDeleteBtn(card.id)} onMouseLeave={e => hideDeleteBtn(card.id)}>
           <div className="card-add" id={`addbtn-` + card.id} onClick={e => this.props.onAdd(card)}>Add</div>
           <div className="item-left">
             <img className="card-img" src={card.imageUrl} alt={card.name} />

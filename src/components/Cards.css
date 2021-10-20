@@ -92,15 +92,15 @@
     margin-right: 2px;
 }
 
-.card-container::-webkit-scrollbar {
+.card-container::-webkit-scrollbar,.container-modal-card::-webkit-scrollbar {
     -webkit-appearance: none;
 }
 
-.card-container::-webkit-scrollbar:vertical {
+.card-container::-webkit-scrollbar:vertical,.container-modal-card::-webkit-scrollbar:vertical {
     width: 14px;
 }
 
-.card-container::-webkit-scrollbar-thumb {
+.card-container::-webkit-scrollbar-thumb,.container-modal-card::-webkit-scrollbar-thumb {
     border-radius: 8px;
     border: 2px solid white;
     background-color: rgba(0, 0, 0, .5);

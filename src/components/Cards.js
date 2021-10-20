@@ -106,7 +106,7 @@ class Card extends React.Component {
     }
 
     return(
-      <div className="card-item" onMouseEnter={e => showDeleteBtn(card.id)} onMouseLeave={e => hideDeleteBtn(card.id)}>
+      <div className="card-item" onMouseOver={e => showDeleteBtn(card.id)} onMouseLeave={e => hideDeleteBtn(card.id)}>
         <div className="card-delete" id={`deletebtn-` + card.id} onClick={e => this.props.onDelete(card.id)}>x</div>
         <div className="item-left">
           <img className="card-img" src={card.imageUrl} alt={card.name} />
